@@ -9,5 +9,5 @@ import { NxWelcomeComponent } from './nx-welcome.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'mi-app-op1';
+  title = 'app-2';
 }

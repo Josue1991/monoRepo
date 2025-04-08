@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@org/ui-components": ["ui-components/src/index.ts"],
       "@org/ui-comun": ["apps/ui-comun/src/index.ts"]
     }
   },

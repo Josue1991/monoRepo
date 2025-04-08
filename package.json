@@ -2,7 +2,9 @@
   "name": "@org/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve:all": "concurrently \"nx serve app-1\" \"nx serve app-2\""
+  },
   "private": true,
   "dependencies": {
     "@angular/common": "~19.2.0",
@@ -36,6 +38,7 @@
     "@swc/helpers": "~0.5.11",
     "@typescript-eslint/utils": "^8.19.0",
     "angular-eslint": "^19.2.0",
+    "concurrently": "^9.1.2",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
     "nx": "20.7.2",

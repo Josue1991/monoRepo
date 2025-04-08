@@ -1,7 +1,7 @@
 {
-  "name": "ui-comun",
-  "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/ui-comun/src",
+  "name": "ui-components",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "ui-components/src",
   "prefix": "lib",
   "projectType": "library",
   "tags": [],
